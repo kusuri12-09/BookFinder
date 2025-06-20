@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&family=Playpen+Sans&display=swap');
+
+body {
+    font-family: "Playpen Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+:lang(ko) {
+    font-family: "Gowun Dodum", cursive;
+    font-weight: 400;
+    font-style: normal;
+}

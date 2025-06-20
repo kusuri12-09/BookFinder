@@ -1,0 +1,88 @@
+@import "../reset.css";
+@import "../font.css";
+@import "../component/header.css";
+@import "../component/footer.css";
+
+.login__wrapper {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    padding: 100px 550px 0;
+}
+
+.login__title {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.login__label {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.login__text {
+    color: rgba(0,0,0,0.7);
+    margin-bottom: 7px;
+    text-decoration: none;
+    transition: color 0.2s ease-in-out;
+}
+
+#login-id {
+    width: 300px;
+    background-color: #f5f5f5;
+    font-size: 16px;
+    padding: 5px;
+    border-bottom: 2px solid black;
+    outline: none;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    margin-left: auto;
+}
+
+#login-id:focus {
+    border-bottom: 3px solid black;
+}
+
+.login__form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login__button {
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    padding: 10px 0;
+    border: none;
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.login__input {
+    border: none;
+    border-bottom: 1px solid rgba(0,0,0,0.7);
+    margin: 10px 10px;
+}
+
+.login__text-box {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0 20px 0;
+}
+.login__input:focus {
+    outline: none;
+    border-bottom: 2px solid black;
+}
+
+.login__label:focus-within .login__text{
+    font-weight: 600;
+}
+
+.login__text-box .login__text:hover {
+    color: black;
+}

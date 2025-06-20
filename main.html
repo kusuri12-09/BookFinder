@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <script src="https://kit.fontawesome.com/26d3944568.js" crossorigin="anonymous"></script>
+    <title>BookFinder</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header__top">
+            <nav class="header__nav-box">
+                <ul class="header__list-box">
+                    <li class="header__content"><i class="fa-solid fa-bars fa-lg"></i></li>
+                    <li class="header__content-text" lang="ko">분야보기</li>                 
+                </ul>
+            </nav>
+
+            <h1 class="header__title"><a href="main.html">BookFinder</a></h1>
+
+            <ul class="header__menu">
+                <li class="header__content">
+                    <a href="./search.html">
+                        <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+                    </a>
+                </li>
+                <li class="header__content">
+                    <a href="./bookmark.html">
+                        <i class="fa-solid fa-bookmark fa-lg"></i>
+                    </a>
+                </li>
+                <li class="header__content">
+                    <a href="./login.html">
+                        <i class="fa-solid fa-right-to-bracket fa-lg"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="header__bottom">
+            <ul class="header__category">
+                <li class="header__content" lang="ko"><a href="./category/best.html">베스트</a></li>
+                <li class="header__content" lang="ko"><a href="./category/recommended-books.html">추천도서</a></li>
+                <li class="header__content" lang="ko"><a href="./category/intro-writer.html">작가와의만남</a></li>
+                <li class="header__content" lang="ko"><a href="./category/field-books.html">분야</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="main__slider">
+            <span class="main__slider-butten"><i class="fa-solid fa-chevron-left"></i></span>
+
+            <div class="main__slider__container">
+                <span class="main__slider-text main__slider-text-today">TODAY BEST</span>
+                <div class="main__slider-image-container">
+                    <img class="main__slider-image" src="./asset/오늘밤세계에서.webp" alt="main_slider_image">
+                </div>
+                <span class="main__slider-text main__slider-text-booktitle" lang="ko">오늘 밤, 이 세계에서 이 사랑이 사라진다 해도</span>
+            </div>
+
+            <span class="main__slider-butten"><i class="fa-solid fa-chevron-right"></i></span>
+            
+            <div class="main__slider-bar">
+                <div class="main__slider-bar-item main__slider-bar-item--visible"></div>
+                <div class="main__slider-bar-item main__slider-bar-item--invisible"></div>
+                <div class="main__slider-bar-item main__slider-bar-item--invisible"></div>
+            </div>
+        </section>
+
+        <section class="main__best">
+            <h3 class="main__best-title">Recommended Books</h3>
+            <span class="main__best-subtitle">추천 도서</span>
+            <div class="main__best-subcontainer">
+                <article class="main__best-article">
+                    <div class="main__article-img-container">
+                        <img class="main__article-img" src="./asset/고양이식당.jpg" alt="best-01">
+                    </div>
+                    <div class="main__article-container">
+                        <h4 class="main__article-book-name" lang="ko">고양이 식당, 행복을 요리합니다</h4>
+                    </div>
+                    <div class="main__article-container">
+                        <span class="main__article-book-author" lang="ko">다카하시 유타</span>
+                    </div>
+                </article>
+                <article class="main__best-article">
+                    <div class="main__article-img-container">
+                        <img class="main__article-img" src="./asset/데미안.jpeg" alt="best-02">
+                    </div>
+                    <div class="main__article-container">
+                        <h4 class="main__article-book-name" lang="ko">데미안</h4>
+                    </div>
+                    <div class="main__article-container">
+                        <span class="main__article-book-author" lang="ko">헤르만 헤세</span>
+                    </div>
+                </article>
+                <article class="main__best-article">
+                    <div class="main__article-img-container">
+                        <img class="main__article-img" src="./asset/세계를건너너에게갈게.jpg" alt="best-03">
+                    </div>
+                    <div class="main__article-container">
+                        <h4 class="main__article-book-name" lang="ko">세계를 건너 너에게 갈게</h4>
+                    </div>
+                    <div class="main__article-container">
+                        <span class="main__article-book-author" lang="ko">이꽃님</span>
+                    </div>
+                </article>
+                <article class="main__best-article">
+                    <div class="main__article-img-container">
+                        <img class="main__article-img" src="./asset/회색인간.jpg" alt="best-04">
+                    </div>
+                    <div class="main__article-container">
+                        <h4 class="main__article-book-name" lang="ko">회색인간</h4>
+                    </div>
+                    <div class="main__article-container">
+                        <span class="main__article-book-author" lang="ko">김동식</span>
+                    </div>
+                </article>
+                <article class="main__best-article">
+                    <div class="main__article-img-container">
+                        <img class="main__article-img" src="./asset/아몬드.jpg" alt="best-05">
+                    </div>
+                    <div class="main__article-container">
+                        <h4 class="main__article-book-name" lang="ko">아몬드</h4>
+                    </div>
+                    <div class="main__article-container">
+                        <span class="main__article-book-author" lang="ko">손원평</span>
+                    </div>
+                </article>
+            </div>
+            <div class="main__best-subcontainer">
+                <article class="main__best-article">
+                    <div class="main__article-img-container">
+                        <img class="main__article-img" src="./asset/노르웨이의숲.jpeg" alt="best-06">
+                    </div>
+                    <div class="main__article-container">
+                        <h4 class="main__article-book-name" lang="ko">노르웨이의 숲</h4>
+                    </div>
+                    <div class="main__article-container">
+                        <span class="main__article-book-author" lang="ko">무라카미 하루키</span>
+                    </div>
+                </article>
+                <article class="main__best-article">
+                    <div class="main__article-img-container">
+                        <img class="main__article-img" src="./asset/구의증명.jpeg" alt="best-07">
+                    </div>
+                    <div class="main__article-container">
+                        <h4 class="main__article-book-name" lang="ko">구의 증명</h4>
+                    </div>
+                    <div class="main__article-container">
+                        <span class="main__article-book-author" lang="ko">최진영</span>
+                    </div>
+                </article>
+                <article class="main__best-article">
+                    <div class="main__article-img-container">
+                        <img class="main__article-img" src="./asset/페인트.jpg" alt="best-08">
+                    </div>
+                    <div class="main__article-container">
+                        <h4 class="main__article-book-name" lang="ko">페인트</h4>
+                    </div>
+                    <div class="main__article-container">
+                        <span class="main__article-book-author" lang="ko">이희영</span>
+                    </div>
+                </article>
+                <article class="main__best-article">
+                    <div class="main__article-img-container">
+                        <img class="main__article-img" src="./asset/총균쇠.jpg" alt="best-09">
+                    </div>
+                    <div class="main__article-container">
+                        <h4 class="main__article-book-name" lang="ko">총, 균, 쇠</h4>
+                    </div>
+                    <div class="main__article-container">
+                        <span class="main__article-book-author" lang="ko">재레드 다이아몬드</span>
+                    </div>
+                </article>
+                <article class="main__best-article">
+                    <div class="main__article-img-container">
+                        <img class="main__article-img" src="./asset/변신.jpg" alt="best-10">
+                    </div>
+                    <div class="main__article-container">
+                        <h4 class="main__article-book-name" lang="ko">변신</h4>
+                    </div>
+                    <div class="main__article-container">
+                        <span class="main__article-book-author" lang="ko">프란츠 카프카</span>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+    </main>
+</body>
+<footer class="footer">
+    <div class="footer__sub-box footer__social-box">
+        <span class="footer__text">
+            <i class="fa-brands fa-instagram"></i>
+        </span>
+        <span class="footer__text">
+            <i class="fa-brands fa-x-twitter"></i>
+        </span>
+        <span class="footer__text">
+            <i class="fa-brands fa-discord"></i>
+        </span>
+    </div>
+    <div class="footer__sub-box footer__info-box">
+        <span class="footer__title">BookFinder</span>
+        <small class="footer__text" lang="ko">전화번호 : 010-7145-0955</small>
+        <small class="footer__text" lang="ko">주소 : 대덕소프트웨어마이스터고등학교</small>
+        <small class="footer__text footer__copyright">&copy; all right reserved by Seungri</small>
+    </div>
+</footer>
+</html>

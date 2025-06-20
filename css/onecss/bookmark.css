@@ -1,0 +1,20 @@
+@import "../reset.css";
+@import "../font.css";
+@import "../component/header.css";
+@import "../component/footer.css";
+
+.main__bookmark {
+    height: 81vh;
+    margin: 0 200px 0 200px;
+}
+
+.main__best-title {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.main__bookmark-message {
+    margin-top: 20px;
+}

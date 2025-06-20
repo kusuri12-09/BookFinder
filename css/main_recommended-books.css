@@ -1,0 +1,64 @@
+.main__best {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.main__best-title {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.main__best-subtitle {
+    font-size: 17px;
+    color: rgba(0,0,0,0.7);
+}
+
+.main__best-subcontainer {
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+    margin: 30px 0;
+}
+
+.main__best-article {
+    text-align: center;
+}
+
+.main__article-img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: visible;
+}
+
+.main__article-img {
+    width: 250px;
+    height: 360px;
+    object-fit: cover;
+    transition: transform 0.4s ease;
+    border-radius: 8px;
+}
+
+.main__article-img:hover {
+    transform: scale(1.1);
+}
+
+.main__article-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.main__article-book-name {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.main__article-book-author {
+    font-size: 16px;
+    color: rgba(0,0,0,0.7);
+}

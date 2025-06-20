@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/onecss/login.css">
+    <script src="https://kit.fontawesome.com/26d3944568.js" crossorigin="anonymous"></script>
+    <title>BookFinder</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header__top">
+            <nav class="header__nav-box">
+                <ul class="header__list-box">
+                    <li class="header__content"><i class="fa-solid fa-bars fa-lg"></i></li>
+                    <li class="header__content-text" lang="ko">분야보기</li>                 
+                </ul>
+            </nav>
+
+            <h1 class="header__title"><a href="main.html">BookFinder</a></h1>
+
+            <ul class="header__menu">
+                <li class="header__content">
+                    <a href="./search.html">
+                        <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+                    </a>
+                </li>
+                <li class="header__content">
+                    <a href="./bookmark.html">
+                        <i class="fa-solid fa-bookmark fa-lg"></i>
+                    </a>
+                </li>
+                <li class="header__content">
+                    <a href="./login.html">
+                        <i class="fa-solid fa-right-to-bracket fa-lg"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="header__bottom">
+            <ul class="header__category">
+                <li class="header__content" lang="ko"><a href="./category/best.html">베스트</a></li>
+                <li class="header__content" lang="ko"><a href="./category/recommended-books.html">추천도서</a></li>
+                <li class="header__content" lang="ko"><a href="./category/intro-writer.html">작가와의만남</a></li>
+                <li class="header__content" lang="ko"><a href="./category/field-books.html">분야</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="login__wrapper">
+        <h2 class="login__title" lang="ko">로그인</h2>
+        <form class="login__form">
+            <label for="login__id" class="login__label">
+                <span class="login__text" lang="ko">아이디</span>
+                <input id="login-id" type="text" class="login__input">
+            </label>
+            <label for="login__pw" class="login__label">
+                <span class="login__text" lang="ko">비밀번호</span>
+                <input id="login-id" type="password" class="login__input">
+            </label>
+            <div class="login__text-box">
+                <a class="login__text" href="" lang="ko">회원가입</a>
+                <a class="login__text" href="" lang="ko">아이디/비밀번호 찾기</a>
+            </div>
+            <input type="submit" value="로그인" class="login__button" lang="ko">
+        </form>
+    </div>
+
+</body>
+<footer class="footer">
+    <div class="footer__sub-box footer__social-box">
+        <span class="footer__text">
+            <i class="fa-brands fa-instagram"></i>
+        </span>
+        <span class="footer__text">
+            <i class="fa-brands fa-x-twitter"></i>
+        </span>
+        <span class="footer__text">
+            <i class="fa-brands fa-discord"></i>
+        </span>
+    </div>
+    <div class="footer__sub-box footer__info-box">
+        <span class="footer__title">BookFinder</span>
+        <small class="footer__text" lang="ko">전화번호 : 010-7145-0955</small>
+        <small class="footer__text" lang="ko">주소 : 대덕소프트웨어마이스터고등학교</small>
+        <small class="footer__text footer__copyright">&copy; all right reserved by Seungri</small>
+    </div>
+</footer>
+</html>

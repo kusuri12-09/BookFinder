@@ -1,0 +1,81 @@
+.main__slider {
+    background: linear-gradient(to bottom, #2d214c, #6360A8);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    position: relative;
+    height: 92vh;
+    box-sizing: border-box;
+}
+
+.main__slider-butten {
+    transform: scale(1.5);
+    color: white;
+    margin: 20px;
+}
+
+.main__slider-text {
+    color: white;
+    font-size: 20px;
+    text-shadow: 2px 2px 2px gray;
+}
+
+.main__slider-text-today {
+    margin-top: -20px;
+    font-size: 25px;
+}
+
+.main__slider-text-booktitle {
+    text-shadow: 5px 5px 5px rgb(90, 86, 91);
+}
+
+.main__slider__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main__slider-image-container {
+    height: 450px;
+    overflow: visible;
+    border-radius: 2%;
+    margin: 30px 0;
+}
+
+.main__slider-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.4s ease;
+    border-radius: 8px;
+}
+
+.main__slider-image:hover {
+    transform: scale(1.1);
+}
+
+.main__slider-bar {
+    width: 100px;
+    height: 5px;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+}
+
+.main__slider-bar-item {
+    background-color: white;
+    height: 100%;
+    margin: 0 1px;
+}
+
+.main__slider-bar-item--visible {
+    width: 50%;
+}
+
+.main__slider-bar-item--invisible {
+    width: 25%;
+    opacity: 50%;
+}
